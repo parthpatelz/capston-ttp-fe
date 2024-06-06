@@ -10,6 +10,6 @@ export class DataService {
   constructor(private http: HttpClient) { }
 
   postData(formData: any): Observable<any> {
-    return this.http.post('http://yourapi.com/endpoint', formData);
+    return this.http.post('http://localhost:8005/auth/signup', formData);
   }
 }
