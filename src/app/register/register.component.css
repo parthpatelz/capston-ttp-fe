@@ -1,0 +1,57 @@
+.brand-message {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.container{
+  margin-top: 170px;
+}
+.brand-values {
+  max-width: 30%;
+}
+
+.brand-values h3 {
+  margin: 5px 0;
+}
+
+.brand-description {
+  max-width: 65%;
+}
+
+.brand-description p {
+  margin: 10px 0;
+}
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.content-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+}
+.btn-primary {
+  background-color: rgb(156, 204, 176);
+  border-color: rgb(156, 204, 176);
+  color: #fff; /* Text color */
+}
+
+
+.brand-message {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.register-form {
+  flex: 1;
+}
+
+.brand-values h3 {
+  margin: 5px 0;
+}
+
+.brand-description p {
+  margin: 10px 0;
+}

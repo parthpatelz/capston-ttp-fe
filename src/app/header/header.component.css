@@ -1,0 +1,16 @@
+
+.navbar-custom {
+  background-color: rgb(17, 33, 24);
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link {
+  color: #FFFFFF;
+}
+.navbar-custom .nav-link:hover {
+  color: #FFD700;
+}
+
+.navbar-custom .navbar-nav .nav-item {
+  margin-right: 20px;
+}

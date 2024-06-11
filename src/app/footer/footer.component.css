@@ -5,4 +5,21 @@ footer {
     background-color: #007bff; /* Bootstrap primary color */
     color: white;
   }
-  
+  /* Change the background color of the footer to match the header */
+.footer-custom {
+  background-color:rgb(17, 33, 24); /* Replace with your desired color */
+}
+
+/* Ensure the text color is white */
+.footer-custom .text-white {
+  color: #FFFFFF !important;
+}
+
+/* Style the social media icons */
+.footer-custom a {
+  color: #FFFFFF; /* White color for icons */
+}
+
+.footer-custom a:hover {
+  color: #FFD700; /* Change color on hover, optional */
+}

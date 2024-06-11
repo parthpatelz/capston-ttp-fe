@@ -1,0 +1,28 @@
+.home-content {
+  display: flex;
+  background-color: rgb(17, 33, 24); /* Background color */
+  color: white; /* Text color */
+  padding: 20px;
+}
+
+.home-left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.home-right {
+  flex: 2;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.home-keyword {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 10px 0;
+}

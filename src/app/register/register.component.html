@@ -1,28 +1,35 @@
-<!-- register.component.html -->
-
 <div class="container">
+
+  <div class="brand-message">
+      <div class="brand-values">
+          <h3>CONNECTION</h3>
+          <h3>HUMAN</h3>
+          <h3>TANGIBILITY</h3>
+          <h3>COMMUNITY</h3>
+          <h3>PROFESSIONALISM</h3>
+          <h3>TRUST</h3>
+      </div>
+      <div class="brand-description">
+          <p>Technology Transfer Platform is a digital network looking to connect researchers with the people and organizations who can support bringing their work to market.</p>
+          <p>TTP is unique amongst its competitors in its offering of connection, and transparency.</p>
+          <p>The brand message must build trust, convey tangibility, and illustrate the need that TTP will fulfill. It should remain approachable, professional, and communicate that we understand the needs and concerns of academia.</p>
+      </div>
+  </div>
+
+  <form [formGroup]="registrationForm" (ngSubmit)="onSubmit()">
     <h2>Register</h2>
-    <form [formGroup]="registrationForm" (ngSubmit)="onSubmit()">
-      <div class="form-group">
-        <label>Email</label>
-        <input type="email" class="form-control" formControlName="email" required>
-      </div>
-      <!-- <div class="form-group">
-        <label>Last Name</label>
-        <input type="text" class="form-control" formControlName="lastName" required>
-      </div>
-      <div class="form-group">
-        <label>Middle Name</label>
-        <input type="text" class="form-control" formControlName="middleName">
-      </div> -->
-      <div class="form-group">
-        <label>Password</label>
-        <input type="password" class="form-control" formControlName="password" required>
-      </div>
-      <div class="form-group">
-        <label>First Name</label>
-        <input type="text" class="form-control" formControlName="fullName" required>
-      </div>
-      <button type="submit" class="btn btn-primary" [disabled]="registrationForm.invalid">Register</button>
-    </form>
+    <div class="form-group">
+      <label>Email</label>
+      <input type="email" class="form-control" formControlName="email" required>
+    </div>
+    <div class="form-group">
+      <label>Password</label>
+      <input type="password" class="form-control" formControlName="password" required>
+    </div>
+    <div class="form-group">
+      <label>First Name</label>
+      <input type="text" class="form-control" formControlName="fullName" required>
+    </div>
+    <button type="submit" class="btn btn-primary">Register</button>
+  </form>
 </div>
